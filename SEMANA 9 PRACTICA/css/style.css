@@ -1,6 +1,11 @@
-h1{ text-align: center;
+body{
+  width:990px: 
+}
+
+ h1{ text-align: center;
 margin-bottom:10%;
 margin-top: -6%;
+margin-left: -5%;
 }
 
 header img{
@@ -11,26 +16,30 @@ header img{
   display: flex;
 }
 
-.column-1, .column-2 {
+.column-1, .column-2, .column-3, .column-4 {
   flex: 1;
   border:1% solid none;
   text-align: center;
   margin: 2%;
-  padding: 2%;
+  padding: 1%
+}
+.column-3, .column-4{
+  margin-left:-3%;
 }
 
 .row div img {
-   border-radius: 50%;
-  width: 50%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
-  
-}
+  border: 3% none;
+  border-radius: 5%;
+  }
+
 
 p{
   font-family:'Handlee', cursive;
   font-size: 1em;
   text-align: justify;
+  padding: 1%;
 
 }
 
@@ -39,6 +48,15 @@ h2{
   font-size: 1.5em;
   text-align: center;
 }
+
+@font-face {
+  font-family: 'Handlee', cursive;
+font-family: 'Kaushan Script', cursive; 
+src:url('https://fonts.googleapis.com/css?family=Handlee|Kaushan+Script');
+}
+
+
+
 
 
 
