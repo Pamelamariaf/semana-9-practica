@@ -50,4 +50,10 @@ h2{
   font-size: 1.5em;
   text-align: center;
 }
+@font-face {
+  font-family: 'Handlee', cursive;
+font-family: 'Kaushan Script', cursive; 
+src:url('https://fonts.googleapis.com/css?family=Handlee|Kaushan+Script');
+}
+
 
